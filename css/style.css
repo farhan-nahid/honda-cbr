@@ -15,6 +15,12 @@
   --primary-color: #e76f51;
   --dark-primary-color: #c96850;
   --white-color: #ffffff;
+  --dark-color: #0d0925;
+}
+
+::selection {
+  background-color: var(--primary-color);
+  color: var(--white-color);
 }
 
 /* utilities */
@@ -35,6 +41,10 @@
   line-height: 24px;
 }
 
+.primary__color {
+  color: var(--primary-color);
+}
+
 .main__button {
   background-color: var(--primary-color);
   border-radius: 5px;
@@ -52,9 +62,10 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  color: var(--dark-color);
 }
 
-/* hero section css */
+/* header section css */
 
 header {
   height: 100vh;
@@ -67,8 +78,20 @@ header {
   min-height: 100vh;
 }
 
-.cbr__logo {
-  color: var(--primary-color);
+#featured img {
+  width: 288px;
+  height: 243px;
+}
+
+#featured .grayscale {
+  filter: grayscale(100%);
+}
+
+.accordion__question {
+  color: var(--dark-color);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
 }
 
 @media only screen and (max-width: 576px) {

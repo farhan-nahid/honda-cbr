@@ -18,12 +18,21 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    <!-- 
+        ====================
+        header section start 
+        ====================
+       -->
     <header>
-      <!-- navbar start -->
+      <!-- 
+        ===================
+            navbar start 
+        ====================
+       -->
       <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
           <a class="navbar-brand fw-bold" href="#"
-            >HONDA <span class="cbr__logo">CBR</span></a
+            >HONDA <span class="primary__color">CBR</span></a
           >
           <button
             class="navbar-toggler"
@@ -61,8 +70,17 @@
           </div>
         </div>
       </nav>
-      <!-- navbar end -->
-      <!-- hero section start -->
+      <!-- 
+        ===================
+            navbar end 
+        ====================
+       -->
+
+      <!-- 
+        ===================
+         hero section start 
+        ====================
+       -->
       <section class="hero__section">
         <div class="container text-white">
           <div class="row gy-5">
@@ -73,24 +91,226 @@
                   advance
                 </p>
                 <h1 class="section__heading">Honda CBR 300R</h1>
-                <p class="section__content w-md-75">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit.
-                  Exercitation veniam consequat sunt nostrud amet.
+                <p class="section__content w-75">
+                  The Honda CBR 150R is a very popular entry-level super sport
+                  bike. Honda has updated it for the year 2021 with new colours
+                  and some new features. It based on the same single-cylinder
+                  engine as its street sibling the Honda CB150R
                 </p>
                 <button class="btn main__button">Purchase</button>
               </div>
             </div>
             <div class="hero__image col-md-6 col-sm-12">
-              <img src="./image/hero-image.svg" alt="" class="img-fluid" />
+              <img
+                src="./image/hero-image.png"
+                alt="hero-image"
+                class="img-fluid"
+              />
             </div>
           </div>
         </div>
       </section>
-      <!-- hero section end -->
+      <!-- 
+        ===================
+         hero section end 
+        ====================
+       -->
     </header>
-    <main></main>
+    <!-- 
+        ===================
+         header section end 
+        ====================
+       -->
+
+    <!-- 
+        ===================
+         main section start 
+        ====================
+       -->
+    <main class="container">
+      <!-- 
+        ============================
+        Featured Bikes section start  
+        ============================
+       -->
+
+      <section class="mt-5" id="featured">
+        <h1 class="text-center section__heading">Featured Bikes 2021</h1>
+        <p class="text-center primary__color">Best bike collection</p>
+        <div class="row mt-5 gy-5">
+          <!-- 
+              ===================
+                single bike 1
+              ===================
+          -->
+          <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+            <img
+              class="img-fluid grayscale"
+              src="./image/featured.png"
+              alt="featured image 1"
+            />
+          </div>
+          <!-- 
+              ===================
+                single bike 2
+              ===================
+          -->
+          <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+            <img
+              class="img-fluid m-auto"
+              src="./image/featured.png"
+              alt="featured image 2"
+            />
+          </div>
+          <!-- 
+              ===================
+                 single bike 3
+              ===================
+          -->
+          <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+            <img
+              class="img-fluid grayscale"
+              src="./image/featured.png"
+              alt="featured image 3"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- 
+        ===========================
+         Featured Bikes section end 
+        ===========================
+       -->
+
+      <section class="mt-5">
+        <h1 class="text-center section__heading">
+          Frequently Asked <span class="primary__color">Questions</span>
+        </h1>
+        <div class="row mt-5 gy-5">
+          <div class="col-md-6">
+            <img src="./image/faq-image.svg" alt="" class="img-fluid" />
+          </div>
+          <div class="col-md-6">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2
+                  class="accordion-header accordion__question"
+                  id="headingOne"
+                >
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    What are the most important things I should know about
+                    riding a bike?
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body text-muted">
+                    Safety First! Always obey the rules of the road. Obey all
+                    traffic signals, signs, and laws. Get in the mindset of
+                    “driving” your bike—not just “riding” your bike. This will
+                    help you be a more focused and legally compliant bike rider.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Accordion Item #2
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong>
+                    It is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It
+                    is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- 
+        ===================
+         main section end 
+        ====================
+       -->
+
+    <!-- 
+        =====================
+         footer section start 
+        ======================
+       -->
     <footer></footer>
+    <!-- 
+        =====================
+         footer section end 
+        ======================
+       -->
+
     <!-- bootstrap js link -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

@@ -106,6 +106,13 @@ header {
   width: 90%;
 }
 
+/* contact css */
+
+.contact__icon {
+  color: var(--primary-color);
+  font-size: 35px;
+}
+
 /* footer css */
 
 footer {

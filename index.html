@@ -84,6 +84,11 @@
       <section class="hero__section">
         <div class="container text-white">
           <div class="row gy-5">
+            <!-- 
+                ===================
+                    hero contents 
+                ====================
+              -->
             <div class="col-md-6 col-sm-12 d-flex align-items-center">
               <div>
                 <p class="small__text">
@@ -92,14 +97,87 @@
                 </p>
                 <h1 class="section__heading">Honda CBR 300R</h1>
                 <p class="section__content w-75">
-                  The Honda CBR 150R is a very popular entry-level super sport
+                  The Honda CBR 300R is a very popular entry-level super sport
                   bike. Honda has updated it for the year 2021 with new colours
-                  and some new features. It based on the same single-cylinder
-                  engine as its street sibling the Honda CB150R
+                  and some new features.
                 </p>
-                <button class="btn main__button">Purchase</button>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn main__button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Purchase
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="exampleModal"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5
+                          class="modal-title primary__color"
+                          id="exampleModalLabel"
+                        >
+                          Honda CBR 300R
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body text-muted">
+                        If you’ve got a soft spot for sport bike design and
+                        Grand Prix stylings, then the 2021 Honda CBR300R is your
+                        sweet spot between form and function. It’s narrow,
+                        light, and a total blast to ride around town and on
+                        twisty back roads. The single-cylinder engine offers
+                        great fuel economy, with smooth and friendly torque
+                        delivery. And the affordable cost and responsive
+                        handling makes it a terrific bike for first-time riders,
+                        and for those looking to grow their garage. There’s even
+                        a version available with our anti-lock braking system.
+                        Plus, this year the CBR300R brings hot new graphics in
+                        two color choices. Time to get riding!
+                      </div>
+                      <div class="modal-footer">
+                        <a
+                          href="https://powersports.honda.com/street/sport/cbr300r"
+                          target="_blank"
+                        >
+                          <button type="button" class="btn main__button">
+                            Visit Website
+                          </button></a
+                        >
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Close
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
+
+            <!-- 
+                ===================
+                    hero image 
+                ====================
+              -->
+
             <div class="hero__image col-md-6 col-sm-12">
               <img
                 src="./image/hero-image.png"
@@ -134,7 +212,7 @@
         ============================
        -->
 
-      <section class="mt-5" id="featured">
+      <section class="my-5 py-5" id="featured">
         <h1 class="text-center section__heading">Featured Bikes 2021</h1>
         <p class="text-center primary__color">Best bike collection</p>
         <div class="row mt-5 gy-5">
@@ -183,21 +261,140 @@
         ===========================
        -->
 
-      <section class="mt-5">
+      <!-- 
+        ===========================
+           Clients section start 
+        ===========================
+       -->
+
+      <section class="my-5 py-5">
+        <h1 class="section__heading text-center">
+          Happy <span class="primary__color">Clients says</span>
+        </h1>
+        <div class="row mt-4 gy-5">
+          <!-- 
+              ===================
+                    client 1
+              ===================
+          -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card p-4">
+              <img
+                width="149px"
+                src="./image/client-1.svg"
+                alt="..."
+                class="rounded-circle m-auto"
+              />
+              <div class="card-body text-center mt-3">
+                <p class="card-text">
+                  Slate helps you see how many more days you need to work to
+                  reach your financial goal for the month and year.
+                </p>
+                <div class="review__stars">
+                  <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star filled"></i>
+                  <i class="far fa-star unfilled"></i>
+                </div>
+                <h5 class="card-title mt-4 text-info small__text fw-bold">
+                  Regina Miles
+                </h5>
+                <h5 class="card-title mt-3 small__text fw-bold">Banker</h5>
+              </div>
+            </div>
+          </div>
+          <!-- 
+              ===================
+                   client 2
+              ===================
+          -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card p-4">
+              <img
+                width="149px"
+                src="./image/client-2.svg"
+                alt="..."
+                class="rounded-circle m-auto"
+              />
+              <div class="card-body text-center mt-3">
+                <p class="card-text">
+                  Slate helps you see how many more days you need to work to
+                  reach your financial goal for the month and year.
+                </p>
+                <div class="review__stars">
+                  <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star filled"></i>
+                  <i class="far fa-star unfilled"></i>
+                </div>
+                <h5 class="card-title mt-4 text-info small__text fw-bold">
+                  Regina Miles
+                </h5>
+                <h5 class="card-title mt-3 small__text fw-bold">Banker</h5>
+              </div>
+            </div>
+          </div>
+          <!-- 
+              ===================
+                   client 3
+              ===================
+          -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card p-4">
+              <img
+                width="149px"
+                src="./image/client-3.svg"
+                alt="..."
+                class="rounded-circle m-auto"
+              />
+              <div class="card-body text-center mt-3">
+                <p class="card-text">
+                  Slate helps you see how many more days you need to work to
+                  reach your financial goal for the month and year.
+                </p>
+                <div class="review__stars">
+                  <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star filled"></i>
+                  <i class="fas fa-star filled"></i>
+                  <i class="far fa-star unfilled"></i>
+                </div>
+                <h5 class="card-title mt-4 text-info small__text fw-bold">
+                  Regina Miles
+                </h5>
+                <h5 class="card-title mt-3 small__text fw-bold">Banker</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 
+        ===========================
+           Clients section end 
+        ===========================
+       -->
+
+      <!-- 
+        ===========================
+           faq section start 
+        ===========================
+       -->
+
+      <section class="my-5 py-5">
         <h1 class="text-center section__heading">
           Frequently Asked <span class="primary__color">Questions</span>
         </h1>
-        <div class="row mt-5 gy-5">
+        <div class="row mt-3 gy-5">
           <div class="col-md-6">
             <img src="./image/faq-image.svg" alt="" class="img-fluid" />
           </div>
           <div class="col-md-6">
             <div class="accordion" id="accordionExample">
               <div class="accordion-item">
-                <h2
-                  class="accordion-header accordion__question"
-                  id="headingOne"
-                >
+                <h2 class="accordion-header" id="headingOne">
                   <button
                     class="accordion-button"
                     type="button"
@@ -206,8 +403,10 @@
                     aria-expanded="true"
                     aria-controls="collapseOne"
                   >
-                    What are the most important things I should know about
-                    riding a bike?
+                    <span class="accordion__question"
+                      >What are the most important things I should know about
+                      riding a bike?</span
+                    >
                   </button>
                 </h2>
                 <div
@@ -234,7 +433,10 @@
                     aria-expanded="false"
                     aria-controls="collapseTwo"
                   >
-                    Accordion Item #2
+                    <span class="accordion__question"
+                      >How can I tell if my helmet is old and I need a new
+                      one?</span
+                    >
                   </button>
                 </h2>
                 <div
@@ -243,16 +445,11 @@
                   aria-labelledby="headingTwo"
                   data-bs-parent="#accordionExample"
                 >
-                  <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong>
-                    It is hidden by default, until the collapse plugin adds the
-                    appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the
-                    showing and hiding via CSS transitions. You can modify any
-                    of this with custom CSS or overriding our default variables.
-                    It's also worth noting that just about any HTML can go
-                    within the <code>.accordion-body</code>, though the
-                    transition does limit overflow.
+                  <div class="accordion-body text-muted">
+                    Safety First! Always obey the rules of the road. Obey all
+                    traffic signals, signs, and laws. Get in the mindset of
+                    “driving” your bike—not just “riding” your bike. This will
+                    help you be a more focused and legally compliant bike rider.
                   </div>
                 </div>
               </div>
@@ -266,7 +463,9 @@
                     aria-expanded="false"
                     aria-controls="collapseThree"
                   >
-                    Accordion Item #3
+                    <span class="accordion__question"
+                      >My bike has been in storage is it safe to ride?</span
+                    >
                   </button>
                 </h2>
                 <div
@@ -275,16 +474,40 @@
                   aria-labelledby="headingThree"
                   data-bs-parent="#accordionExample"
                 >
-                  <div class="accordion-body">
-                    <strong>This is the third item's accordion body.</strong> It
-                    is hidden by default, until the collapse plugin adds the
-                    appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the
-                    showing and hiding via CSS transitions. You can modify any
-                    of this with custom CSS or overriding our default variables.
-                    It's also worth noting that just about any HTML can go
-                    within the <code>.accordion-body</code>, though the
-                    transition does limit overflow.
+                  <div class="accordion-body text-muted">
+                    Safety First! Always obey the rules of the road. Obey all
+                    traffic signals, signs, and laws. Get in the mindset of
+                    “driving” your bike—not just “riding” your bike. This will
+                    help you be a more focused and legally compliant bike rider.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    <span class="accordion__question"
+                      >What rules should I follow when riding my bike?</span
+                    >
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body text-muted">
+                    Safety First! Always obey the rules of the road. Obey all
+                    traffic signals, signs, and laws. Get in the mindset of
+                    “driving” your bike—not just “riding” your bike. This will
+                    help you be a more focused and legally compliant bike rider.
                   </div>
                 </div>
               </div>
@@ -292,6 +515,11 @@
           </div>
         </div>
       </section>
+      <!-- 
+        ===========================
+           faq section end 
+        ===========================
+       -->
     </main>
     <!-- 
         ===================
@@ -304,12 +532,44 @@
          footer section start 
         ======================
        -->
-    <footer></footer>
+    <footer>
+      <div class="container py-5 text-light">
+        <div class="row gy-5">
+          <div class="col-md-6">
+            <span>Download Now</span>
+            <span class="ms-4">License</span>
+            <div class="d-flex justify-content-between my-4">
+              <p>About</p>
+              <p>Feature</p>
+              <p>Pricing</p>
+              <p>Careers</p>
+              <p>Help</p>
+              <p>Privacy Policy</p>
+            </div>
+            <p>Copyright &copy; All Right Reserved</p>
+          </div>
+
+          <div class="col-md-3 offset-md-3">
+            <h3 class="mb-3">Get in Touch</h3>
+            <img src="./image/App-Store.svg" alt="" class="img-fluid" />
+            <br />
+            <br />
+            <img src="./image/Play-store.svg" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- 
         =====================
          footer section end 
         ======================
        -->
+
+    <!-- font awesome js link -->
+    <script
+      src="https://kit.fontawesome.com/c58d26cb9d.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- bootstrap js link -->
     <script

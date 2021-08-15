@@ -81,6 +81,16 @@ h6::before {
   background-color: var(--primary-color);
 }
 
+a {
+  text-decoration: none;
+  color: var(--white-color);
+  transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+  color: var(--primary-color);
+}
+
 /* utilities end */
 
 /* header section css */

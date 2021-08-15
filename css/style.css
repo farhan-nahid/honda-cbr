@@ -76,7 +76,7 @@ h6::before {
   bottom: -6px;
   left: 50%;
   transform: translateX(-50%);
-  width: 60px;
+  width: 70px;
   height: 1px;
   background-color: var(--primary-color);
 }
@@ -127,6 +127,25 @@ nav {
   font-weight: 500;
   line-height: 28px;
   width: 90%;
+}
+
+/* our loan system section css */
+
+#loan .card-header {
+  background-color: var(--primary-color);
+}
+
+#loan .price {
+  font-size: 30px;
+}
+
+#loan ul {
+  list-style-type: none;
+}
+
+#loan ul li {
+  font-size: 20px;
+  color: var(--dark-color);
 }
 
 /* contact us section css */

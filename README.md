@@ -8,7 +8,7 @@
 
 ###
 
-<img src="https://i.ibb.co/Gp0y58q/HONDA-CBR.png" alt="HONDA-CBR" border="0">
+<img src="https://i.ibb.co/LkjDsXx/HONDA-CBR.png" alt="HONDA-CBR" border="0">
 
 ---
 
